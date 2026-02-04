@@ -198,4 +198,16 @@ header h1 {
 
 @media (max-width: 600px) {
     .tile {
-        font-size:
+        font-size: 24px;
+    }
+    
+    .key {
+        min-width: 32px;
+        height: 48px;
+        font-size: 12px;
+    }
+    
+    .key.wide {
+        min-width: 52px;
+    }
+}
